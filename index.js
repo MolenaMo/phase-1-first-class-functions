@@ -13,6 +13,6 @@ function returnsANamedFunction(){
 
 function returnsAnAnonymousFunction(){
  
-return returnsAnAnonymousFunction
+return function(){}
 }
-returnsAnAnonymousFunction(function(){return "Testing"})
+//returnsAnAnonymousFunction(function(){return "Testing"})
